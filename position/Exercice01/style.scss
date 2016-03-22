@@ -1,0 +1,67 @@
+body{
+	margin:0;
+}
+
+.redBlock{
+	position: relative;
+	background-color:red;
+	color: white;
+	width: 500px;
+	height: 550px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.greenBlock{
+	background-color: green;
+	width: 120px;
+	height: 135px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.greyBlock{
+	background-color: grey;
+	width: 120px;
+	height: 135px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.blackBlock{
+	background-color: black;
+	width: 120px;
+	height: 135px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: table;
+}
+
+.blackBlock p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 10px;
+}
+
+.whiteBlock{
+	color: black;
+	background-color: white;
+	width: 120px;
+	height: 135px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: table;
+}
+
+.whiteBlock p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 10px;
+}

@@ -1,0 +1,50 @@
+body{
+	margin:0;
+}
+
+.loginBlock{
+	border: 1px solid #B0E0F8;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	width: 340px;
+	text-align: center;
+}
+
+.container{
+	width:100%;
+	height: 50vh;
+	transform: translateY(50%);
+}
+
+.blue{
+	color:#566FFF;
+	text-decoration: none;
+}
+
+#cover{
+	width:100%;
+	height:100%;
+	background-color: black;
+	z-index: 1000;
+	position: absolute;
+	top:0;
+	opacity:0.6;
+	display: none;
+}
+
+#popup{
+    width: 269px;
+    height: 130px;
+    background-color: white;
+    padding: 6px 28px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    z-index: 2000;
+    display: none;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 14%;
+}

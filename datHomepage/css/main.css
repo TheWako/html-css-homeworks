@@ -1,0 +1,215 @@
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(../font/FoundersGrotesk/FoundersGrotesk-Regular.ttf); }
+@font-face {
+  font-family: StanleyPoster;
+  src: url(../font/StanleyPoster/Stanley-Poster.ttf); }
+@font-face {
+  font-family: Aileron;
+  src: url(../font/Aileron/Aileron-Regular.otf); }
+@font-face {
+  font-family: AileronBold;
+  src: url(../font/Aileron/Aileron-Bold.otf); }
+@font-face {
+  font-family: AileronItalic;
+  src: url(../font/Aileron/Aileron-Italic.otf); }
+body {
+  width: 1920px;
+  height: 1080px;
+  margin: 0; }
+
+.header {
+  font-family: FoundersGrotesk;
+  width: 100%; }
+
+.topHeader {
+  width: 102%;
+  margin-bottom: 16%;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1% 0%; }
+
+.headerBlock {
+  display: inline-block; }
+
+.login {
+  color: #999999;
+  margin-left: 375px; }
+
+.cart {
+  float: right;
+  margin-right: 385px; }
+
+.border {
+  border-right: 2px dotted #bbbbbb;
+  padding-right: 15px;
+  margin-right: 15px; }
+
+.ongletBlock {
+  text-align: center;
+  text-transform: uppercase; }
+
+.ongletBlock li {
+  display: inline-block;
+  padding: 0px 30px;
+  border-right: 2px dotted #bbbbbb; }
+
+.bottomHeader {
+  width: 102%;
+  border-top: 1px #e5e5e5 solid;
+  border-bottom: 1px #e5e5e5 solid; }
+
+.container {
+  width: 102%;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  padding-bottom: 24px; }
+
+.homeContent {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1261px; }
+
+.modeBlock {
+  margin: 24px 0px;
+  width: 1261px;
+  height: 630px;
+  background-image: url(../images/Mode-tuile.png);
+  text-align: center;
+  line-height: 630px; }
+
+.restaurantBlock {
+  margin-right: 16px;
+  width: 406px;
+  height: 492px;
+  background-image: url(../images/food.png);
+  float: left;
+  text-align: center;
+  line-height: 492px; }
+
+.columnTwo {
+  width: 407px;
+  height: 492px;
+  margin-right: 16px;
+  float: left; }
+
+.newsletterBlock {
+  width: 407px;
+  height: 217px;
+  margin-bottom: 20px;
+  background-image: url(../images/Newsletter-tuile.png);
+  font-family: Aileron;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase; }
+
+.socialBlock {
+  width: 407px;
+  height: 247px;
+  background-color: #575757;
+  margin-top: 20px;
+  line-height: 247px;
+  text-align: center;
+  font-family: aileron;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white; }
+
+.socialBlock .fa {
+  color: #a9c7bf; }
+
+.socialBlockContent {
+  text-align: center;
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle; }
+
+.italic {
+  font-family: AileronItalic;
+  font-size: 14px; }
+
+.bold {
+  font-family: AileronBold; }
+
+.artBlock {
+  width: 407px;
+  height: 492px;
+  background-image: url(../images/BookOfLifeside.png);
+  float: left;
+  text-align: center;
+  line-height: 492px; }
+
+.titleTuile {
+  font-family: StanleyPoster;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+.footer {
+  width: 100%;
+  font-family: FoundersGrotesk;
+  font-size: 18px; }
+
+.footerBold {
+  font-family: StanleyPoster; }
+
+.topFooter {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1261px; }
+
+.footerBlock {
+  float: left;
+  width: 407px;
+  text-align: center; }
+
+.footerBlock ul {
+  list-style: none;
+  margin-right: 36px; }
+
+.NewsLetterTextBox {
+  height: 38px;
+  width: 249px;
+  border: none; }
+
+.NewsLetterButton {
+  font-family: aileronBold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #a9c7bf;
+  width: 107px;
+  border: none;
+  margin-left: -5px;
+  height: 40px;
+  font-size: 12px; }
+
+.TextBorder {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5; }
+
+.bottomFooter {
+  width: 102%;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px 0px;
+  border-top: 1px solid #e5e5e5; }
+
+.bottomFooterContent {
+  margin-left: -60px; }
+
+.fa {
+  padding: 5px 5px 0px 5px;
+  margin-top: 10px;
+  font-size: 25px; }
+
+.fa.fa-chevron-down {
+  padding: 0;
+  margin-top: 0;
+  font-size: 13px; }
+
+/*# sourceMappingURL=main.css.map */
